@@ -1,0 +1,81 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+h3{
+color:#CC00CC;
+background-color:#FFCC00;
+}
+h5{
+font-size:10px;
+color:#AAAAFC;
+margin:25px 0px 0px 650px;
+}
+#text{
+width:212px;
+}
+td{
+background:#966696;
+}
+table{
+background:#111111;
+}
+</style>
+<center>
+	<h3>CALCULATOR</h3>
+	</br>
+	<form name="calculator">
+		<table border="2px">
+		<tr>
+			<td colspan="5"><input id="text" type="text" name="display" style="background:#E0F8F8"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="MC" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+			<td><input type="button" value="MR" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+			<td><input type="button" value="MS" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+			<td><input type="button" value="M+" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+			<td><input type="button" value="M-" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="<-" onclick="calculator.display.value+='<-'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="CE" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="c" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="+/-" onclick="calculator.display.value+='+/-'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="Sqr" onclick="calculator.display.value=''" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onclick="calculator.display.value+='7'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="8" onclick="calculator.display.value+='8'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="9" onclick="calculator.display.value+='9'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="/" onclick="calculator.display.value+='/'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="%" onclick="calculator.display.value+='%'" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="calculator.display.value+='4'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="5" onclick="calculator.display.value+='5'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="6" onclick="calculator.display.value+='6'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="*" onclick="calculator.display.value+='*'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="1/x" onclick="calculator.display.value='1/x'" style="width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="calculator.display.value+='1'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="2" onclick="calculator.display.value+='2'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="3" onclick="calculator.display.value+='3'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="-" onclick="calculator.display.value+='-'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td rowspan="2"><input type="button" value="=" onclick="calculator.display.value=eval(calculator.display.value)" style="height:47px; width:38px; color:#00FFCC; background-color:#197DBC;"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" value="0" onclick="calculator.display.value+='0'" style="width:81px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="." onclick="calculator.display.value+='.'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+			<td><input type="button" value="+" onclick="calculator.display.value+='+'" style="width:38px; color:#00FFCC; background-color:#FF00FF;"></td>
+		</tr>
+		</table>
+	</form>
+	
+</center>
+<br />
+<h5>&copy; by Jobaer</h5>
+</body>
+</html>
